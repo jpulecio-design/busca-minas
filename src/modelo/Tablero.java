@@ -2,7 +2,7 @@ package modelo;
 
 /**
  * Modelo del tablero: contiene la matriz de celdas y expone
- * solo operaciones de dominio .
+ * solo operaciones de dominio 
  */
 public class Tablero {
     private final Celda[][] matriz;
@@ -65,12 +65,12 @@ public class Tablero {
         return contador;
     }
 
-    /** Hay victoria cuando todas las celdas sin mina están reveladas. */
+    /** Hay victoria cuando todas las celdas sin mina están reveladas */
     public boolean victoriaAlcanzada() {
         return contarCeldasSinRevelar() == config.getTotalMinas();
     }
 
-    /** Revela todas las minas ,para mostrar al perder. */
+    /** Revela todas las minas ,para mostrar al perder */
     public void revelarTodasLasMinas() {
         for (int f = 0; f < config.getFilas(); f++)
             for (int c = 0; c < config.getColumnas(); c++)

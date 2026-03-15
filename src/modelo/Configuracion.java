@@ -44,9 +44,9 @@ public class Configuracion {
 
     private void validar(int filas, int columnas, int minas) {
         if (filas < 2 || columnas < 2)
-            throw new IllegalArgumentException("El tablero debe ser de al menos 2x2.");
+            throw new IllegalArgumentException("El tablero debe ser de al menos 2x2");
         if (minas < 1 || minas >= filas * columnas)
-            throw new IllegalArgumentException("Numero de minas invalido.");
+            throw new IllegalArgumentException("Numero de minas invalido");
     }
 
     public int getFilas() {
