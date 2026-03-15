@@ -1,3 +1,5 @@
+package accion;
+
 import modelo.Celda;
 import modelo.Tablero;
 
@@ -57,7 +59,7 @@ public class ProcesadorJugada {
             tablero.getCelda(fila, col).cambiarMarca();
     }
 
-    //  Logica interna 
+    // Logica interna
 
     /**
      * Revela en cascada o descubir muchas de las celdas vacías contiguas
