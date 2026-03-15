@@ -1,14 +1,17 @@
+package accion;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+import modelo.Tablero;
+
 /**
  * Responsable exclusivamente de generar y distribuir las minas :v
  * 
- * de forma aleatoria sobre el tablero .
+ * de forma aleatoria sobre el tablero
  *
- * La primera celda destapada siempre queda libre de mina.
+ * La primera celda destapada siempre queda libre de mina
  */
 public class GeneradorTablero {
 
@@ -19,7 +22,7 @@ public class GeneradorTablero {
     }
 
     /**
-     * Genera minas aleatoriamente evitando la celda segura inicial.
+     * Genera minas aleatoriamente evitando la celda segura inicial
      *
      * @param filaSegura    fila de la primera jugada del usuario
      * @param columnaSegura columna de la primera jugada del usuario
@@ -47,7 +50,7 @@ public class GeneradorTablero {
             tablero.getCelda(candidatos.get(i)[0], candidatos.get(i)[1]).colocarMina();
     }
 
-    /** Para cada celda cuenta cuantas de sus 8 vecinas tienen mina. */
+    /** Para cada celda cuenta cuantas de sus 8 vecinas tienen mina */
     private void calcularVecinas() {
         for (int f = 0; f < tablero.getFilas(); f++)
             for (int c = 0; c < tablero.getColumnas(); c++)

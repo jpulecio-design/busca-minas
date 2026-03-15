@@ -1,5 +1,8 @@
 package modelo;
-
+/**
+ * Configuración intocable de una partida, dimensiones y cantidad de minas
+ * Centraliza las constantes del juego 
+ */
 public class Configuracion {
     public enum Dificultad {
         FACIL(8, 8, 10),
@@ -17,8 +20,8 @@ public class Configuracion {
             this.minas = minas;
         }
     }
-    // poseen diferentes atributos con mismo nombre porque enum trabaja con ellos directamente
-    //y confuguracion necesita q no se acceda a ellos
+    /*  poseen diferentes atributos con mismo nombre porque enum trabaja con ellos directamente
+    y confuguracion necesita q no se acceda a ellos*/
 
     private final int filas;
     private final int columnas;
