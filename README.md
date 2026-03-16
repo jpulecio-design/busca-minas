@@ -58,7 +58,7 @@ busca-minas/
 ### Desde VS Code
 1. Abre la carpeta del proyecto en VS Code
 2. Abre `App.java`
-3. Presiona **Run** (▶) o `Ctrl + F5`
+3. Presiona **Run** o `Ctrl + F5`
 
 ### Desde consola
 ```bash
@@ -88,5 +88,5 @@ java -cp bin App
 
 - **OOP:** separacion en paquetes `modelo`, `accion` y `util`
 - **Single Responsibility:** cada clase tiene una única responsabilidad
-- **Open/Closed:** fácil de extender con nuevas dificultades o modos de juego
+- **Open/Closed:** facil de extender con nuevas dificultades o modos de juego
 - **Clean Code:** nombres descriptivos, metodos cortos y comentarios precisos
