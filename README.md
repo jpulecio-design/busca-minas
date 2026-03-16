@@ -19,7 +19,7 @@ Implementacion del clasico juego Buscaminas en Java para consola, desarrollado a
 
 ## Descripcion
 
-El juego permite al usuario elegir una dificultad (Facil, Medio, Difícil o Personalizado), destapar celdas y marcar minas en un tablero generado aleatoriamente. La primera celda destapada siempre esta garantizada como segura.
+El juego permite al usuario elegir una dificultad (Facil, Medio, Dificil o Personalizado), destapar celdas y marcar minas en un tablero generado aleatoriamente. La primera celda destapada siempre esta garantizada como segura.
 
 ---
 
@@ -68,7 +68,7 @@ java -cp bin App
 
 ---
 
-## 🎮 Cómo jugar
+## Como jugar
 
 1. Elige una dificultad al iniciar:
    - **Facil:** 8×8 con 10 minas
@@ -84,7 +84,7 @@ java -cp bin App
 
 ---
 
-## 🧱 Principios aplicados
+## Principios aplicados
 
 - **OOP:** separacion en paquetes `modelo`, `accion` y `util`
 - **Single Responsibility:** cada clase tiene una única responsabilidad
